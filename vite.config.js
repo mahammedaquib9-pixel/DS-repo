@@ -6,6 +6,6 @@ import { defineConfig } from 'vite'
 // so every asset URL has to be prefixed with the repo name.
 // For a user site (<user>.github.io) or a custom domain, build with VITE_BASE=/
 export default defineConfig({
-  base: process.env.VITE_BASE ?? '/Ds-project/',
+  base: process.env.VITE_BASE ?? '/DS-repo/',
   plugins: [react(), tailwindcss()],
 })
